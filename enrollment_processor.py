@@ -1,7 +1,14 @@
 #!/usr/bin/python
 # This file is meant to open a Selenium webdriver with Python, which
 # you can then use to automate the rest of steps required to process
-# new enrollments (the ones that involve interacting with ROLE)
+# new enrollments (the ones that involve interacting with ROLE).
+#
+# The "mechanize" module is used in 
+# https://github.com/csheremeta/automate_role_enrollments/scrape_enrollments.py
+# to automate a different part of the ROLE sys admin process. See notes in
+# that file for other automation ideas. Thanks!
+#
+# Candace Sheremeta (candace.aleea@gmail.com)
 import time
 from selenium import webdriver
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
