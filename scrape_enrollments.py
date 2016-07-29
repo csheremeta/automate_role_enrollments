@@ -1,4 +1,14 @@
 #!/usr/bin/python
+# This script opens the ROLE site and scrapes data off of the ROLE site,
+# which it saves to an xls, which could then be saved to a .csv and used
+# with an automated script that parses through CSV files. For example,
+# see the python and bash (.sh) scripts seen at: 
+# https://github.com/csheremeta/ROLE-Enrollment-Helper
+#
+# This script uses mechanize. You could also use Selenium (see
+# https://github.com/csheremeta/automate_role_enrollments/blob/master/enrollment_processor.py)
+#
+# IMPORTANT: See note on line 46. Thanks! - Candace Sheremeta (candace.aleea@gmail.com)
 import mechanize
 import cookielib
 from BeautifulSoup import BeautifulSoup
