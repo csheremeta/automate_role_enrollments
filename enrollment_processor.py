@@ -1,4 +1,7 @@
 #!/usr/bin/python
+# This file is meant to open a Selenium webdriver with Python, which
+# you can then use to automate the rest of steps required to process
+# new enrollments (the ones that involve interacting with ROLE)
 import time
 from selenium import webdriver
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
